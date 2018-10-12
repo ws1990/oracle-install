@@ -46,14 +46,6 @@ docker run -d \
 oracle/database:12.2.0.1-ee
 ```
 
-## 3.3 导入导出
-将dump.sh和imp.sh上传到服务器，参考命令如下(在执行脚本之前，请先检查脚本中的username，password，model等参数是否正确)：
-```shell
-# 1. 导出
-./dump.sh /home/oracle/dump/20181010
-# 2. 导入
-./imp.sh /home/oracle/dump/20181010
-```
 
-# 4. 参考
+# 3. 参考
 1. [oracle官方镜像](https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance)
